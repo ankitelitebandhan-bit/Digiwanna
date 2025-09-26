@@ -1,5 +1,4 @@
 import React from "react";
-
 import laptopImage from "../assets/laptop.jpg";
 import Stats from "../Components/Stats";
 import CoreValue from "../Components/CoreValue";
@@ -140,7 +139,7 @@ const HeroSection = () => {
       <ReadytoStart />
       <PricingCard />
       <FeaturesSection />
-      {/* <ContactForm /> */}
+      <ContactForm />
     </>
   );
 };

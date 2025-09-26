@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa";
 const CallButton = () => {
   return (
     <a
-      href="tel:+919748124534"
+      href="tel:+917303945449"
       style={{
         position: "fixed",
         bottom: "100px",
