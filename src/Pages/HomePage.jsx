@@ -138,7 +138,7 @@ const HeroSection = () => {
 
       <ProcessSteps />
       <FeaturedProjects />
-      {/* <ReadytoStart /> */}
+      <ReadytoStart />
       {/* <PricingCard /> */}
       <FeaturesSection />
       {/* <ContactForm /> */}
