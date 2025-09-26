@@ -63,7 +63,7 @@ const ContactForm = () => {
             <FaPhoneAlt className="text-gray-600 mt-1" />
             <div>
               <p className="font-medium">Call Us</p>
-              <p className="text-sm text-gray-600">+1 (555) 123-4567</p>
+              <p className="text-sm text-gray-600">+91 7303945449</p>
             </div>
           </div>
 
@@ -72,7 +72,8 @@ const ContactForm = () => {
             <div>
               <p className="font-medium">Visit Us</p>
               <p className="text-sm text-gray-600">
-                123 Innovation St, San Francisco, CA 94102
+                Location: A4, lower GF , Near Vardhman Mall , Nanda Enclave Sec
+                19 Dwarka , South West Delhi:110075
               </p>
             </div>
           </div>
