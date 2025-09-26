@@ -19,11 +19,11 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* <Route path="/contact" element={<Contact />} /> */}
-        {/* <Route path="/career" element={<Careers />} /> */}
-        {/* <Route path="/OurWork" element={<OurWork />} /> */}
-        {/* <Route path="/Services" element={<Services />} /> */}
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/career" element={<Careers />} />
+        <Route path="/OurWork" element={<OurWork />} />
+        <Route path="/Services" element={<Services />} />
       </Routes>
       <Footer />
       <CallButton />
