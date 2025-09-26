@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png"; // Update the path to your logo
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,42 +15,42 @@ const Navbar = () => {
         </div>
 
         <nav className="hidden md:flex space-x-8 text-gray-700">
-          <a
-            href="#home"
+          <Link
+            to="/"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            to="/about"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             About Us
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            to="/Services"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             Services
-          </a>
-          <a
-            href="#work"
+          </Link>
+          <Link
+            to="/Ourwork"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             Our Work
-          </a>
-          <a
-            href="#careers"
+          </Link>
+          <Link
+            to="/career"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             Careers
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Get Started Button */}
@@ -83,24 +84,24 @@ const Navbar = () => {
       {/* Mobile Navigation Menu */}
       {isOpen && (
         <div className="md:hidden bg-white text-gray-700 px-6 py-4 space-y-4">
-          <a href="#home" className="block hover:text-black">
+          <Link to="/" className="block hover:text-black">
             Home
-          </a>
-          <a href="#about" className="block hover:text-black">
+          </Link>
+          <Link to="/about" className="block hover:text-black">
             About Us
-          </a>
-          <a href="#services" className="block hover:text-black">
+          </Link>
+          <Link to="/services" className="block hover:text-black">
             Services
-          </a>
-          <a href="#work" className="block hover:text-black">
+          </Link>
+          <Link to="/ourwork" className="block hover:text-black">
             Our Work
-          </a>
-          <a href="#careers" className="block hover:text-black">
+          </Link>
+          <Link to="/career" className="block hover:text-black">
             Careers
-          </a>
-          <a href="#contact" className="block hover:text-black">
+          </Link>
+          <Link to="/contact" className="block hover:text-black">
             Contact
-          </a>
+          </Link>
 
           {/* Get Started Button for Mobile */}
           <div className="mt-4">

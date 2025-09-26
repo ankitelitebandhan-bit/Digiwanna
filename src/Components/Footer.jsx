@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -51,10 +52,13 @@ const Footer = () => {
                 href="tel:+19591234567"
                 className="text-gray-400 hover:underline"
               >
-                +1 (959) 123-4567
+                +91 73039 45449
               </a>
             </li>
-            <li>Location: Delhi , India</li>
+            <li>
+              Location: A4, lower GF , Near Vardhman Mall , Nanda Enclave Sec 19
+              Dwarka , South West Delhi:110075
+            </li>
           </ul>
         </div>
 
@@ -63,34 +67,34 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-lg">
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/" className="hover:underline">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/about" className="hover:underline">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/Services" className="hover:underline">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/Ourwork" className="hover:underline">
                 Our Work
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/career" className="hover:underline">
                 Careers
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/contact" className="hover:underline">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

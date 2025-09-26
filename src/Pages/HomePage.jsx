@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+
 import laptopImage from "../assets/laptop.jpg";
 import Stats from "../Components/Stats";
 import CoreValue from "../Components/CoreValue";
@@ -11,12 +11,11 @@ import ReadytoStart from "../Components/ReadytoStart";
 import PricingCard from "../Components/PricingSection";
 import FeaturesSection from "../Components/FeaturesSection";
 import ContactForm from "../Components/ContactForm";
-import Footer from "../Components/Footer";
 
 const HeroSection = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <section className="w-full bg-white py-16 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between italic">
         <div className="max-w-xl text-center md:text-left mb-12 md:mb-0">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 leading-tight">
@@ -139,10 +138,9 @@ const HeroSection = () => {
       <ProcessSteps />
       <FeaturedProjects />
       <ReadytoStart />
-      {/* <PricingCard /> */}
+      <PricingCard />
       <FeaturesSection />
       {/* <ContactForm /> */}
-      {/* <Footer /> */}
     </>
   );
 };
