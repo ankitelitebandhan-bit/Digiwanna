@@ -1,9 +1,12 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import ContactForm from "../Components/ContactForm";
 
 const Contact = () => {
-  return <div>Contact Us</div>;
+  return (
+    <>
+      <ContactForm />
+    </>
+  );
 };
 
 export default Contact;

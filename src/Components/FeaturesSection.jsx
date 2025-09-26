@@ -9,6 +9,7 @@ import {
   FaCode,
   FaRocket,
 } from "react-icons/fa";
+import { Link, Links } from "react-router-dom";
 
 const FeaturesSection = () => {
   const features = [
@@ -121,12 +122,17 @@ const FeaturesSection = () => {
           needs. Get in touch for a free consultation and detailed proposal.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-          <button className="bg-black text-white px-6 py-3 rounded-md hover:bg-gray-900 transition">
-            Start Your Project
-          </button>
-          <button className="bg-white border border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200 transition">
-            Schedule a Call
-          </button>
+          <Link to="/contact">
+            <button className="bg-black text-white px-6 py-3 rounded-md hover:bg-gray-900 transition">
+              Start Your Project
+            </button>
+          </Link>
+
+          <a href="https://api.whatsapp.com/send/?phone=917303945449&text&type=phone_number&app_absent=0">
+            <button className="bg-white border border-gray-400 px-6 py-3 rounded-md hover:bg-gray-200 transition">
+              Schedule a Call
+            </button>
+          </a>
         </div>
       </div>
     </section>

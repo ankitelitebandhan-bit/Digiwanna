@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ReadytoStart = () => {
   return (
@@ -12,9 +13,11 @@ const ReadytoStart = () => {
             Let us discuss your ideas and turn them into reality. Get a free
             consultation today!
           </p>
-          <button className="bg-black text-white px-6 py-3 italic rounded-md hover:bg-white hover:text-black hover:border-2 hover:border-b-gray-950 text-2xl transition">
-            Start Your Project
-          </button>
+          <Link to="/contact">
+            <button className="bg-black text-white px-6 py-3 italic rounded-md hover:bg-white hover:text-black hover:border-2 hover:border-b-gray-950 text-2xl transition">
+              Start Your Project
+            </button>
+          </Link>
         </div>
       </section>
     </div>

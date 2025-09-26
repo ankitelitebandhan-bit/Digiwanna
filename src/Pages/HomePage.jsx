@@ -10,6 +10,7 @@ import ReadytoStart from "../Components/ReadytoStart";
 import PricingCard from "../Components/PricingSection";
 import FeaturesSection from "../Components/FeaturesSection";
 import ContactForm from "../Components/ContactForm";
+import { Link, Links } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -27,12 +28,17 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-8">
-            <button className="bg-black text-white px-6 py-3 rounded-md hover:bg-white hover:text-black hover:border-2 hover:border-b-gray-950 text-2xl transition">
-              Start Your Project
-            </button>
-            <button className="bg-transparent border border-gray-300 text-2xl hover:text-white hover:bg-black  text-gray-800 px-6 py-3 rounded-md hover:border-white transition delay-100">
-              <div className="text-lg font-semibold"> View our Work </div>
-            </button>
+            <Link to="/contact">
+              <button className="bg-black text-white px-6 py-3 rounded-md hover:bg-white hover:text-black hover:border-2 hover:border-b-gray-950 text-2xl transition">
+                Start Your Project
+              </button>
+            </Link>
+
+            <Link to="/OurWork">
+              <button className="bg-transparent border border-gray-300 text-2xl hover:text-white hover:bg-black  text-gray-800 px-6 py-3 rounded-md hover:border-white transition delay-100">
+                <div className="text-lg font-semibold"> View our Work </div>
+              </button>
+            </Link>
           </div>
 
           {/* Stats */}

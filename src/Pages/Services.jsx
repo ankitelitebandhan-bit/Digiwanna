@@ -1,9 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import OurServices from "../Components/OurServices";
+import ProcessSteps from "../Components/ProcessSteps";
 
 const Services = () => {
-  return <>Services</>;
+  return (
+    <>
+      <OurServices />
+      <ProcessSteps />
+    </>
+  );
 };
 
 export default Services;

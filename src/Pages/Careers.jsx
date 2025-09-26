@@ -1,9 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import JoinOurTeam from "../Components/JoinOurTeam";
+import Careers from "../Components/Career";
 
-const Careers = () => {
-  return <>Careers</>;
+const Career = () => {
+  return (
+    <>
+      <JoinOurTeam />
+      <Careers />
+    </>
+  );
 };
 
-export default Careers;
+export default Career;

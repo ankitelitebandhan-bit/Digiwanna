@@ -1,9 +1,14 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import FeaturedProjects from "../Components/FeaturedProjects";
+import ReadytoStart from "../Components/ReadytoStart";
 
 const OurWork = () => {
-  return <>Our Work</>;
+  return (
+    <>
+      <FeaturedProjects />
+      <ReadytoStart />
+    </>
+  );
 };
 
 export default OurWork;
