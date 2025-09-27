@@ -103,8 +103,8 @@ const Careers = () => {
 
       <div className="space-y-6 max-w-5xl mx-auto">
         {jobListings.map((job, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-            <div className="flex justify-between items-start">
+          <div key={index} className=" p-6 rounded-lg shadow-sm">
+            <div className="flex  justify-between flex-wrap items-start">
               <div>
                 <h3 className="text-xl font-semibold flex items-center">
                   {job.title}
@@ -126,16 +126,15 @@ const Careers = () => {
                       <li key={i}>{req}</li>
                     ))}
                   </ul>
+                  <div></div>
                 </div>
               </div>
-              <div>
-                <a
-                  href="#resume-form"
-                  className="bg-blue-900 w-[100]px text-white px-4 py-2 rounded-md hover:bg-blue-800 transition"
-                >
-                  Apply Now →
-                </a>
-              </div>
+              <a
+                href="#resume-form"
+                className="bg-blue-900 w-[100]px text-white px-4 py-2 rounded-md hover:bg-blue-800 transition ml-auto"
+              >
+                Apply Now →
+              </a>
             </div>
           </div>
         ))}
