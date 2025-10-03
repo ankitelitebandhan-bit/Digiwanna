@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const PricingCard = ({ title, price, features, isSelected, onClick }) => {
   return (
@@ -34,23 +35,25 @@ const PricingCard = ({ title, price, features, isSelected, onClick }) => {
           ))}
         </ul>
       </div>
-      <button
-        className={`mt-6 px-4 py-2 rounded-md font-semibold transition duration-300 ${
-          isSelected
-            ? "bg-blue-600 text-white hover:bg-blue-700"
-            : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-        }`}
-      >
-        {title === "Custom" ? "Contact Us" : "Get Started"}
-      </button>
+      <Link to="/contact">
+        <button
+          className={`mt-6 px-4 py-2 rounded-md font-semibold transition duration-300 ${
+            isSelected
+              ? "bg-blue-600 text-white hover:bg-blue-700"
+              : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+          }`}
+        >
+          {title === "Custom" ? "Contact Us" : "Get Started"}
+        </button>
+      </Link>
     </div>
   );
 };
 
 const pricingData = [
   {
-    title: "Basic",
-    price: 49999,
+    title: "Web Development",
+    price: "Starts from 4999* ",
     features: [
       "Responsive design",
       "5 Pages",
@@ -60,27 +63,28 @@ const pricingData = [
     ],
   },
   {
-    title: "Standard",
-    price: 74999,
+    title: "Digital Marketing",
+    price: "Starts from 8999*",
     features: [
-      "Custom Design",
-      "10 Pages",
-      "Advanced SEO",
-      "Analytics",
-      "2 Months Support",
+      "SEO",
+      "SMO",
+      "Blogs",
+      "Whatsapp integration",
+      "1 Months Support",
     ],
   },
   {
-    title: "Premium",
-    price: 129999,
+    title: "Graphic Design",
+    price: "Starts from 999*",
     features: [
-      "Custom Web App",
-      "15 Pages",
-      "Authentication",
-      "Payment Integration",
-      "Admin Panel",
+      "Poster Design",
+      "Brochure Design",
+      "Product Design",
+      "E-visiting Card",
+      "Logo Design",
     ],
   },
+
   {
     title: "Custom",
     price: "Custom",

@@ -40,6 +40,12 @@ const Navbar = () => {
             Our Work
           </Link>
           <Link
+            to="/Pricing"
+            className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
+          >
+            Pricing
+          </Link>
+          <Link
             to="/career"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >

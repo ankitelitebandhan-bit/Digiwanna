@@ -7,7 +7,7 @@ import OurServices from "../Components/OurServices";
 import ProcessSteps from "../Components/ProcessSteps";
 import FeaturedProjects from "../Components/FeaturedProjects";
 import ReadytoStart from "../Components/ReadytoStart";
-import PricingCard from "../Components/PricingSection";
+// import PricingCard from "../Components/PricingSection";
 import FeaturesSection from "../Components/FeaturesSection";
 import ContactForm from "../Components/ContactForm";
 import { Link, Links } from "react-router-dom";
@@ -143,7 +143,7 @@ const HeroSection = () => {
       <ProcessSteps />
       <FeaturedProjects />
       <ReadytoStart />
-      <PricingCard />
+      {/* <PricingCard /> */}
       <FeaturesSection />
       <ContactForm />
     </>

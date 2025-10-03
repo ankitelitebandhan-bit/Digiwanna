@@ -156,29 +156,29 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Company</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/career" className="hover:underline">
                 Careers
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/contact" className="hover:underline">
                 Hire Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/contact" className="hover:underline">
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/Privacy" className="hover:underline">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/TermsofServices" className="hover:underline">
                 Terms of Service
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
