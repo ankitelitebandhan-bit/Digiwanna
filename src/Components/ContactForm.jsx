@@ -123,9 +123,10 @@ const ContactForm = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
-                type="text"
-                name="company"
-                placeholder="Company Name"
+                type="number"
+                name="user_phone"
+                placeholder="Phone number *"
+                required
                 className="border px-4 py-2 rounded w-full"
               />
               <select
@@ -134,24 +135,38 @@ const ContactForm = () => {
                 className="border px-4 py-2 rounded w-full text-gray-600"
               >
                 <option value="">Service Interested In *</option>
-                <option value="Web Design">Web Design</option>
-                <option value="SEO">SEO</option>
-                <option value="Branding">Branding</option>
-                <option value="Development">Development</option>
+                <option value="Development">Web Development</option>
+                <option value="SEO">Mobile App Development</option>
+                <option value="Web Design">UI/UX Design</option>
+                <option value="Branding">Analytical Insight</option>
+                <option value="">E-commerce solution</option>
+                <option value="Web Design">Digital marketing</option>
+                <option value="SEO">Graphic Design</option>
+                <option value="Branding">Domain | Hosting | SSL</option>
+                <option value="Branding">CRM Solutions</option>
               </select>
             </div>
 
-            <select
-              name="budget"
-              required
-              className="border px-4 py-2 rounded w-full text-gray-600"
-            >
-              <option value="">Project Budget *</option>
-              <option value="Under $1,000">Under $1,000</option>
-              <option value="$1,000 - $5,000">$1,000 - $5,000</option>
-              <option value="$5,000 - $10,000">$5,000 - $10,000</option>
-              <option value="Above $10,000">Above $10,000</option>
-            </select>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                className="border px-4 py-2 rounded w-full"
+              />
+
+              <select
+                name="budget"
+                required
+                className="border px-4 py-2 rounded w-full text-gray-600"
+              >
+                <option value="">Project Budget *</option>
+                <option value="Under $100">Under $100</option>
+                <option value="$100 - $500">$100 - $500</option>
+                <option value="$500 - $1000">$500 - $1,000</option>
+                <option value="Above $1,000">Above $1,000</option>
+              </select>
+            </div>
 
             <textarea
               name="message"
