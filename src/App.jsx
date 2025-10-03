@@ -12,7 +12,7 @@ import WhatsAppButton from "./Components/Whatsapp";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import CallButton from "./Components/CallButton";
-import Pricing from "./Pages/Pricing";
+// import Pricing from "./Pages/Pricing";
 import Privacy from "./Pages/Privacy";
 import TermsofServices from "./Pages/TermsofServices";
 
@@ -27,7 +27,7 @@ const App = () => {
         <Route path="/career" element={<Careers />} />
         <Route path="/OurWork" element={<OurWork />} />
         <Route path="/Services" element={<Services />} />
-        <Route path="/Pricing" element={<Pricing />} />
+        {/* <Route path="/Pricing" element={<Pricing />} /> */}
         <Route path="/Privacy" element={<Privacy />} />
         <Route path="/TermsofServices" element={<TermsofServices />} />
       </Routes>

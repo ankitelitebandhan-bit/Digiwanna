@@ -40,12 +40,12 @@ const Navbar = () => {
             Our Work
           </Link>
 
-          <Link
+          {/* <Link
             to="/Pricing"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
           >
             Pricing
-          </Link>
+          </Link> */}
           <Link
             to="/career"
             className="hover:text-black text-lg font-bold hover:underline underline-offset-8 decoration-2 decoration-black    "
@@ -103,9 +103,9 @@ const Navbar = () => {
           <Link to="/ourwork" className="block hover:text-black">
             Our Work
           </Link>
-          <Link to="/Pricing" className="block hover:text-black">
+          {/* <Link to="/Pricing" className="block hover:text-black">
             Pricing
-          </Link>
+          </Link> */}
           <Link to="/career" className="block hover:text-black">
             Careers
           </Link>
