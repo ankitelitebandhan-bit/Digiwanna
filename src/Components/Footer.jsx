@@ -191,16 +191,32 @@ const Footer = () => {
           India.
         </p>
         <div className="flex gap-4">
-          <a href="#" aria-label="Facebook" className="hover:text-white">
+          <a
+            href="https://www.facebook.com/profile.php?id=61581702277574"
+            aria-label="Facebook"
+            className="hover:text-white"
+          >
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#" aria-label="Twitter" className="hover:text-white">
+          <a
+            href="https://x.com/digiwanna"
+            aria-label="Twitter"
+            className="hover:text-white"
+          >
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#" aria-label="LinkedIn" className="hover:text-white">
+          <a
+            href="www.linkedin.com/in/digi-wanna-b88929386"
+            aria-label="LinkedIn"
+            className="hover:text-white"
+          >
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="#" aria-label="Instagram" className="hover:text-white">
+          <a
+            href="https://www.instagram.com/digi_wana/?__pwa=1"
+            aria-label="Instagram"
+            className="hover:text-white"
+          >
             <i className="fab fa-instagram"></i>
           </a>
         </div>
