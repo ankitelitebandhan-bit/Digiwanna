@@ -51,10 +51,10 @@ const ContactForm = () => {
             <div>
               <p className="font-medium">Email Us</p>
               <a
-                href="mailto:hello@digiwanna.com"
+                href="mailto:care.digiwanna@gmail.com"
                 className="text-sm text-gray-600"
               >
-                hello@digiwanna.com
+                care.digiwanna@gmail.com
               </a>
             </div>
           </div>
