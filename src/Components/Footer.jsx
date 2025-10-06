@@ -43,7 +43,7 @@ const Footer = () => {
                 href="mailto:hello@digitalcraft.com"
                 className="text-gray-400 hover:underline"
               >
-                hello@Digiwanna
+                Support@digiwanna.com
               </a>
             </li>
             <li>
